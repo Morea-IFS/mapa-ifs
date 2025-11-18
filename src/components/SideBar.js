@@ -19,16 +19,13 @@ function SideBar() {
 
         <nav className="menu">
           <Link to="/" onClick={closeSidebar}>Mapa Geral</Link>
-          <Link to="/bloco1" onClick={closeSidebar}>Bloco 1</Link>
-          <Link to="/bloco2" onClick={closeSidebar}>Bloco 2</Link>
-          <Link to="/bloco3" onClick={closeSidebar}>Bloco 3</Link>
-          <Link to="/bloco4" onClick={closeSidebar}>Bloco 4</Link>
-          <Link to="/corredor-oeste" onClick={closeSidebar}>Corredor Oeste</Link>
-          <Link to="/corredor-central" onClick={closeSidebar}>Corredor Central</Link>
-          <Link to="/corredor-leste" onClick={closeSidebar}>Corredor Leste</Link>
-          <Link to="/vivencia" onClick={closeSidebar}>Vivência</Link>
-          <Link to="/coinf" onClick={closeSidebar}>Coinf</Link>
-          <Link to="/arquitetura" onClick={closeSidebar}>Arquitetura</Link>
+          <Link to="/blocoA" onClick={closeSidebar}>Bloco A</Link>
+          <Link to="/blocoB" onClick={closeSidebar}>Bloco B</Link>
+          <Link to="/blocoC" onClick={closeSidebar}>Bloco C</Link>
+          <Link to="/blocoD" onClick={closeSidebar}>Bloco D</Link>
+          <Link to="/blocoE" onClick={closeSidebar}>Bloco E</Link>
+          <Link to="/blocoFG" onClick={closeSidebar}>Bloco F e G</Link>
+          <Link to="/blocoH" onClick={closeSidebar}>Bloco H</Link>
         </nav>
       </div>
     </>

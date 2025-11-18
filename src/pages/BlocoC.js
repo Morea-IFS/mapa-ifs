@@ -1,10 +1,10 @@
 import React from "react";
 import "./PageLayout.css";
 import { motion } from "framer-motion";
-import mapaInferior from "../assets/mapas/bloco1_inferior.png";
-import mapaSuperior from "../assets/mapas/bloco1_superior.png";
+import mapaInferior from "../assets/mapas/blocoC_inferior.png";
+import mapaSuperior from "../assets/mapas/blocoC_superior.png";
 
-function Bloco3() {
+function BlocoC() {
   return (
     <motion.div
       className="page-container"
@@ -12,15 +12,15 @@ function Bloco3() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
-      <h1 className="page-title">Bloco 3</h1>
+      <h1 className="page-title">Bloco C</h1>
       <p className="page-description">
-        Bloco 3 — abriga as <b>Salas de 8 a 10</b>, <b>Sophia Polis</b>, <b>Labic</b>, <b>Mini Auditório</b>,
+        Bloco C — abriga as <b>Salas de 8 a 10</b>, <b>Sophia Polis</b>, <b>Labic</b>, <b>Mini Auditório</b>,
         <b>?</b>.
       </p>
 
       <div className="floor-section">
         <h2>Andar Inferior</h2>
-        <img src={mapaInferior} alt="Mapa do andar inferior do Bloco 3" className="map-image" />
+        <img src={mapaInferior} alt="Mapa do andar inferior do Bloco C" className="map-image" />
         <div className="legend">
           <p><b>Sophia Polis:</b> -----</p>
           <p><b>Labic:</b> Laboratório de Inovação e Criatividade.</p>
@@ -30,7 +30,7 @@ function Bloco3() {
 
       <div className="floor-section">
         <h2>Andar Superior</h2>
-        <img src={mapaSuperior} alt="Mapa do andar superior do Bloco 3" className="map-image" />
+        <img src={mapaSuperior} alt="Mapa do andar superior do Bloco C" className="map-image" />
         <div className="legend">
           <p><b>Sala de 8 a 10:</b> Locais de aula.</p>
           <p><b>Mini Auditório:</b> -----</p>
@@ -41,4 +41,4 @@ function Bloco3() {
   );
 }
 
-export default Bloco3;
+export default BlocoC;

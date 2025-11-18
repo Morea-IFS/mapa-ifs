@@ -1,11 +1,11 @@
 import React from "react";
 import "./PageLayout.css";
 import { motion } from "framer-motion";
-import mapaInferior from "../assets/mapas/bloco1_inferior.png";
-import mapaSuperior from "../assets/mapas/bloco1_superior.png";
-import mapaSubsolo from '../assets/mapas/bloco4_subsolo.png';
+import mapaInferior from "../assets/mapas/blocoD_inferior.png";
+import mapaSuperior from "../assets/mapas/blocoD_superior.png";
+import mapaSubsolo from '../assets/mapas/blocoD_subsolo.png';
 
-function Bloco4() {
+function BlocoD() {
   return (
     <motion.div
       className="page-container"
@@ -13,15 +13,15 @@ function Bloco4() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
-      <h1 className="page-title">C</h1>
+      <h1 className="page-title">Bloco D</h1>
       <p className="page-description">
-        Bloco 4 — abriga as <b>Salas de 1 a 7</b>, <b>?</b>, <b>?</b>, <b>?</b>,
+        Bloco D — abriga as <b>Salas de 1 a 7</b>, <b>?</b>, <b>?</b>, <b>?</b>,
         <b>?</b>.
       </p>
 
       <div className="floor-section">
         <h2>Andar Inferior</h2>
-        <img src={mapaInferior} alt="Mapa do andar inferior do Bloco 4" className="map-image" />
+        <img src={mapaInferior} alt="Mapa do andar inferior do Bloco D" className="map-image" />
         <div className="legend">
           <p><b>?</b> -----</p>
           <p><b>?</b> -----</p>
@@ -31,7 +31,7 @@ function Bloco4() {
 
       <div className="floor-section">
         <h2>Andar Superior</h2>
-        <img src={mapaSuperior} alt="Mapa do andar superior do Bloco 4" className="map-image" />
+        <img src={mapaSuperior} alt="Mapa do andar superior do Bloco D" className="map-image" />
         <div className="legend">
           <p><b>?</b> -----</p>
           <p><b>?</b> -----</p>
@@ -41,7 +41,7 @@ function Bloco4() {
 
       <div className="floor-section">
         <h2>Subsolo</h2>
-        <img src={mapaSubsolo} alt="Mapa do subsolo do Bloco 4" className="map-image" />
+        <img src={mapaSubsolo} alt="Mapa do subsolo do Bloco D" className="map-image" />
         <div className="legend">
             <p><b>?</b> -----</p>
             <p><b>?</b> -----</p>
@@ -51,4 +51,4 @@ function Bloco4() {
   );
 }
 
-export default Bloco4;
+export default BlocoD;

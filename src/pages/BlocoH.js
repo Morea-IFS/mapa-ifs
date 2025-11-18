@@ -1,10 +1,10 @@
 import React from "react";
 import "./PageLayout.css";
 import { motion } from "framer-motion";
-import mapaInferior from "../assets/mapas/bloco1_inferior.png";
-import mapaSuperior from "../assets/mapas/bloco1_superior.png";
+import mapaInferior from "../assets/mapas/blocoA_inferior.png";
+import mapaSuperior from "../assets/mapas/blocoA_superior.png";
 
-function Vivencia() {
+function BlocoH() {
   return (
     <motion.div
       className="page-container"
@@ -12,17 +12,16 @@ function Vivencia() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
-      <h1 className="page-title">Vivência</h1>
+      <h1 className="page-title">Bloco H</h1>
       <p className="page-description">
-        Vivência — abriga <b>Refeitório</b>, <b>?</b>, <b>?</b>, <b>?</b>,
+        Bloco H — abriga o <b>Auditório</b>, <b>Banheiro</b>, <b>?</b>, <b>?</b>,
         <b>?</b>.
       </p>
 
       <div className="floor-section">
         <h2>Andar Inferior</h2>
-        <img src={mapaInferior} alt="Mapa do andar inferior da Vivência" className="map-image" />
+        <img src={mapaInferior} alt="Mapa do andar inferior do Bloco H" className="map-image" />
         <div className="legend">
-          <p><b>Refeitório</b> Local de alimentação</p>
           <p><b>?</b> -----</p>
           <p><b>?</b> -----</p>
           <p><b>?</b> -----</p>
@@ -31,7 +30,7 @@ function Vivencia() {
 
       <div className="floor-section">
         <h2>Andar Superior</h2>
-        <img src={mapaSuperior} alt="Mapa do andar superior da Vivência" className="map-image" />
+        <img src={mapaSuperior} alt="Mapa do andar superior do Bloco H" className="map-image" />
         <div className="legend">
           <p><b>?</b> -----</p>
           <p><b>?</b> -----</p>
@@ -42,4 +41,4 @@ function Vivencia() {
   );
 }
 
-export default Vivencia;
+export default BlocoH;
