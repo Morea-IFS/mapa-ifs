@@ -14,8 +14,7 @@ function BlocoA() {
     >
       <h1 className="page-title">Bloco A</h1>
       <p className="page-description">
-        Bloco A — abriga a <b>CRE</b>, <b>Biblioteca</b>, <b>Sala de Reunião</b>, <b>DEN</b>, 
-        <b>Direção Geral</b> e outros setores essenciais do campus.
+        Bloco A — abriga a <b>CRE</b>, <b>Biblioteca</b>, <b>Sala de Reunião</b>, <b>DEN</b>, <b>Direção Geral</b> e outros setores essenciais do campus.
       </p>
 
       <div className="floor-section">

@@ -14,27 +14,29 @@ function BlocoE() {
     >
       <h1 className="page-title">Bloco E</h1>
       <p className="page-description">
-        Bloco E — abriga <b>?</b>, <b>?</b>, <b>?</b>, <b>?</b>,
-        <b>?</b>.
+        Bloco E — abriga <b>COAU</b>, <b>COED</b>, <b>Canteiro de Obras</b>, <b>Sala de Plástica</b>, <b>Ateliês</b>.
       </p>
-
-      <div className="floor-section">
-        <h2>Andar Inferior</h2>
-        <img src={mapaInferior} alt="Mapa do andar inferior do Bloco E" className="map-image" />
-        <div className="legend">
-          <p><b>?</b> -----</p>
-          <p><b>?</b> -----</p>
-          <p><b>?</b> -----</p>
-        </div>
-      </div>
 
       <div className="floor-section">
         <h2>Andar Superior</h2>
         <img src={mapaSuperior} alt="Mapa do andar superior do Bloco E" className="map-image" />
         <div className="legend">
-          <p><b>?</b> -----</p>
-          <p><b>?</b> -----</p>
-          <p><b>?</b> -----</p>
+          <p><b>E01:</b> COED</p>
+          <p><b>E02:</b> Ateliê de Arquitetura</p>
+          <p><b>E03:</b> Laboratório CAD</p>
+          <p><b>E04:</b> Ateliê de Arquitetura</p>
+        </div>
+      </div>
+
+      <div className="floor-section">
+        <h2>Andar Inferior (Subsolo)</h2>
+        <img src={mapaInferior} alt="Mapa do andar inferior(Subsolo) do Bloco E" className="map-image" />
+        <div className="legend">
+          <p><b>E05:</b> COAU</p>
+          <p><b>E06:</b> Sala de Plástica</p>
+          <p><b>E07:</b> Laboratório de CAD</p>
+          <p><b>E08:</b> Ateliê de Arquitetura</p>
+          <p><b>E09:</b> Canteiro de Obras</p>
         </div>
       </div>
     </motion.div>

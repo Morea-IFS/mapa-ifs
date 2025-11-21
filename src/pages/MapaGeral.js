@@ -19,7 +19,8 @@ function MapaGeral() {
             <li><Link to="/blocoC">Bloco C</Link></li>
             <li><Link to="/blocoD">Bloco D</Link></li>
             <li><Link to="/blocoE">Bloco E</Link></li>
-            <li><Link to="/blocoFG">Bloco FG</Link></li>
+            <li><Link to="/blocoF">Bloco F</Link></li>
+            <li><Link to="/blocoG">Bloco G</Link></li>
             <li><Link to="/blocoH">Bloco H</Link></li>
           </ul>
         </div>

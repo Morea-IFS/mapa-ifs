@@ -24,7 +24,8 @@ function SideBar() {
           <Link to="/blocoC" onClick={closeSidebar}>Bloco C</Link>
           <Link to="/blocoD" onClick={closeSidebar}>Bloco D</Link>
           <Link to="/blocoE" onClick={closeSidebar}>Bloco E</Link>
-          <Link to="/blocoFG" onClick={closeSidebar}>Bloco F e G</Link>
+          <Link to="/blocoF" onClick={closeSidebar}>Bloco F</Link>
+          <Link to="/blocoG" onClick={closeSidebar}>Bloco G</Link>
           <Link to="/blocoH" onClick={closeSidebar}>Bloco H</Link>
         </nav>
       </div>

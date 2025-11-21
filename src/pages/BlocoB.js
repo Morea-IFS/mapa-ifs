@@ -14,8 +14,7 @@ function BlocoB() {
     >
       <h1 className="page-title">Bloco B</h1>
       <p className="page-description">
-        Bloco B — abriga as <b>Salas de 1 a 7</b>, <b>?</b>, <b>?</b>, <b>?</b>,
-        <b>?</b>.
+        Bloco B — abriga as <b>Salas de 1 a 7</b>, <b>Salas de Desenhos e Projetos</b>, <b>Laboratórios de Natureza</b>, <b> Laborátorio de Desenho Técnico em CAD</b>.
       </p>
 
       <div className="floor-section">

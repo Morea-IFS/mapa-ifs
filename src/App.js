@@ -7,7 +7,8 @@ import BlocoB from './pages/BlocoB';
 import BlocoC from './pages/BlocoC';
 import BlocoD from './pages/BlocoD';
 import BlocoE from './pages/BlocoE';
-import BlocoFG from './pages/BlocoFG';
+import BlocoF from './pages/BlocoF';
+import BlocoG from './pages/BlocoG';
 import BlocoH from './pages/BlocoH';
 import './App.css';
 
@@ -23,7 +24,8 @@ function App() {
           <Route path="/blocoC" element={<BlocoC />} />
           <Route path="/blocoD" element={<BlocoD />} />
           <Route path="/blocoE" element={<BlocoE />} />
-          <Route path="/blocoFG" element={<BlocoFG />} />
+          <Route path="/blocoF" element={<BlocoF />} />
+          <Route path="/blocoG" element={<BlocoG />} />
           <Route path="/blocoH" element={<BlocoH />} />
         </Routes>
       </div>
